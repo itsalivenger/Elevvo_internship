@@ -1,2 +1,11 @@
+# Data Files
 *.csv
-/*/.gitignore
+**/*.csv
+
+# Archives (suggested based on previous commits)
+*.zip
+**/*.zip
+
+# Git internal
+.gitignore
+!/**/.gitignore
