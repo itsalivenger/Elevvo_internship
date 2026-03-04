@@ -1,6 +1,7 @@
 # Data Files
 *.csv
 **/*.csv
+archive
 
 # Archives (suggested based on previous commits)
 *.zip
