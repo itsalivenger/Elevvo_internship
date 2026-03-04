@@ -55,6 +55,25 @@ Welcome to my Machine Learning portfolio developed during my internship at **Ele
 
 ---
 
+### 5. 🚦 GTSRB - German Traffic Sign Recognition Benchmark
+**Objective:** Classify traffic sign images into 43 distinct classes to enable autonomous recognition.
+- **Model Used:** `Convolutional Neural Network (CNN)` via Keras/TensorFlow
+- **Key Techniques:** Image Resizing, One-Hot Encoding, Convolutional Layers, Max Pooling.
+- **Business Context:** Crucial for autonomous vehicle systems, advanced driver-assistance systems (ADAS), and augmenting traffic safety infrastructure through automated sign parsing.
+
+> [!NOTE]
+> CNNs are highly effective for image data as they successfully capture spatial hierarchies and local features like edges and shapes.
+
+---
+
+### 6. 🛒 Walmart Sales Forecast
+**Objective:** Predict weekly sales across multiple retail stores and departments based on historical features and markdown events.
+- **Model Used:** `Deep Neural Network (DNN)`
+- **Key Techniques:** Feature Engineering (Date extraction), Data Merging, Standard Scaling.
+- **Business Context:** Accurate weekly sales forecasting directly impacts inventory management, staff scheduling, and promotional planning, minimizing stockouts and overstock costs.
+
+---
+
 ## 🚀 How to Run
 
 1. **Clone the Repository:**
