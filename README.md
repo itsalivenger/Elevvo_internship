@@ -12,6 +12,8 @@ Welcome to my Machine Learning portfolio developed during my internship at **Ele
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=matplotlib&logoColor=black)
 ![Seaborn](https://img.shields.io/badge/Seaborn-444444?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
 ---
 
@@ -19,6 +21,7 @@ Welcome to my Machine Learning portfolio developed during my internship at **Ele
 
 ### 1. 🌲 Forest Cover Type Classification
 **Objective:** Predict the forest cover type (7 classes) based on cartographic variables.
+- **Dataset:** [Forest Cover Type Dataset (Kaggle)](https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset)
 - **Model Used:** `RandomForestClassifier`
 - **Key Techniques:** Feature Engineering, Multiclass Evaluation, Hyperparameter awareness.
 - **Business Context:** Useful for ecological monitoring and forest management. Understanding species distribution helps in conservation efforts and wildfire risk assessment.
@@ -30,6 +33,7 @@ Welcome to my Machine Learning portfolio developed during my internship at **Ele
 
 ### 2. 💳 Loan Approval Prediction
 **Objective:** Automate the loan eligibility process based on customer detail.
+- **Dataset:** [Loan Approval Prediction Dataset (Kaggle)](https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset)
 - **Model Used:** `LogisticRegression`
 - **Key Techniques:** Standard Scaling, One-Hot Encoding, Binary Classification.
 - **Business Context:** Streamlining loan approvals reduces manual overhead and minimizes the risk of default by identifying high-risk applicants early in the pipeline.
@@ -41,6 +45,7 @@ Welcome to my Machine Learning portfolio developed during my internship at **Ele
 
 ### 3. 🛍️ Mall Customer Segmentation
 **Objective:** Segment customers into distinct groups based on annual income and spending score.
+- **Dataset:** [Customer Segmentation Tutorial (Kaggle)](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
 - **Models Used:** `KMeans` & `DBSCAN`
 - **Key Techniques:** PCA for Visualization, Elbow Method, Silhouette Analysis.
 - **Business Context:** Empowers marketing teams to design hyper-targeted campaigns. By identifying "High Spenders" vs. "Value Seekers," businesses can optimize their ROI on promotional spend.
@@ -49,6 +54,7 @@ Welcome to my Machine Learning portfolio developed during my internship at **Ele
 
 ### 4. 🎓 Student's Score Prediction
 **Objective:** Predict academic performance based on study hours and socioeconomic factors.
+- **Dataset:** [Student Performance Factors (Kaggle)](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors?resource=download)
 - **Model Used:** `LinearRegression`
 - **Key Techniques:** Bivariate Analysis, Correlation Heatmaps, Residual Analysis.
 - **Business Context:** Educational institutions can use these insights to identify students at risk of underperforming and provide early intervention or personalized tutoring resources.
@@ -57,6 +63,7 @@ Welcome to my Machine Learning portfolio developed during my internship at **Ele
 
 ### 5. 🚦 GTSRB - German Traffic Sign Recognition Benchmark
 **Objective:** Classify traffic sign images into 43 distinct classes to enable autonomous recognition.
+- **Dataset:** [GTSRB - German Traffic Sign (Kaggle)](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/discussion?sort=hotness)
 - **Model Used:** `Convolutional Neural Network (CNN)` via Keras/TensorFlow
 - **Key Techniques:** Image Resizing, One-Hot Encoding, Convolutional Layers, Max Pooling.
 - **Business Context:** Crucial for autonomous vehicle systems, advanced driver-assistance systems (ADAS), and augmenting traffic safety infrastructure through automated sign parsing.
@@ -68,6 +75,7 @@ Welcome to my Machine Learning portfolio developed during my internship at **Ele
 
 ### 6. 🛒 Walmart Sales Forecast
 **Objective:** Predict weekly sales across multiple retail stores and departments based on historical features and markdown events.
+- **Dataset:** [Walmart Sales Forecast (Kaggle)](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast)
 - **Model Used:** `Deep Neural Network (DNN)`
 - **Key Techniques:** Feature Engineering (Date extraction), Data Merging, Standard Scaling.
 - **Business Context:** Accurate weekly sales forecasting directly impacts inventory management, staff scheduling, and promotional planning, minimizing stockouts and overstock costs.
